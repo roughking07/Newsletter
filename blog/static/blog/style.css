@@ -1,0 +1,48 @@
+body {
+    background-color: #232323;
+    color: ghostwhite;
+}
+
+
+h1{
+    background-color:white;
+    color: blueviolet;
+}
+
+.article-card{
+    margin-top: 44px;
+    box-shadow: 5px 5px 15px -2px #000000;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: #181818;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    width: 72%;
+
+}
+
+
+.article-card img{
+margin-top: 10px;
+border-radius: 11px;
+}
+
+.article-card h3{
+
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.article-card p{
+    size: 10px;
+    color: whitesmoke;
+}
+
+.nav-wrapper{
+    background-color: #131313;
+    color: azure;
+    box-shadow: 5px 5px 11px 3px #000000;
+}
