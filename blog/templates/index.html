@@ -24,10 +24,10 @@
     
     {% for article in articles %}
     <center><div class="article-card">
-        <img style="width: 500px;"src="{{article.urlToImage}}"/>
-        <h4 style="text-transform: uppercase;">{{article.title}}</h4><br>
-        <h6><p>{{ article.description}}</p><br></h6>
-        
+        <img style="width: 450px;"src="{{article.urlToImage}}"/>
+        <p>Written by - {{article.author}}</p>
+        <h4 style="text-transform: uppercase;">{{article.title}}</h4>
+        <h6><p>{{ article.description}}</p></h6><a href="{{article.url}}" target="_blank">Read More...</a>
 </div></center>
     {% endfor %} 
 </body>
